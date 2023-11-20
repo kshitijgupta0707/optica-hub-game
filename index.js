@@ -28,14 +28,14 @@ function generateRandomString(n) {
   return randomString;
 }
 
-var opt = generateRandomString(6);
+var opt = generateRandomString(4);
 function setName() {
   document.getElementById("d1").innerHTML = opt[0];
   document.getElementById("d2").innerHTML = opt[1];
   document.getElementById("d3").innerHTML = opt[2];
   document.getElementById("d4").innerHTML = opt[3];
-  document.getElementById("d5").innerHTML = opt[4];
-  document.getElementById("d6").innerHTML = opt[5];
+  // document.getElementById("d5").innerHTML = opt[4];
+  // document.getElementById("d6").innerHTML = opt[5];
 
   console.log(opt);
 }
